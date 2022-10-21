@@ -33,7 +33,7 @@ while (i >= 0):
       print(j, end="")  #sending these hex
       print(p, end="")  #values as modified Ciphertext
       temp_ct = "".join(list_ct)
-      r = requests.post('https://ineedrandom.com/paddingoracle',
+      r = requests.post('https://Sample-URL.com/paddingoracle',
                         json={
                           "ciphertext": "d6c88784f890d6a24c5bf2f090c0aec7",
                           "iv": temp_ct
